@@ -1,0 +1,251 @@
+/* Write your code at the bottom */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0 5px;
+  margin: 0 auto;
+  
+}
+.container p{
+text-align: 50px;
+padding-top: 20px;
+padding-bottom: 15px;
+
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=375&q=80);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 70px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+.top-wrapper h2 {
+  padding-top: 50px;
+  margin-bottom: 4px;
+  font-size: 50px;
+  color: rgb(199, 131, 53);
+
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: rgba(12, 238, 12, 0.87);
+}
+
+.google {
+  background-color: rgb(23, 23, 240);
+  margin-right: 10px;
+
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(226, 69, 48, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #f0e8f3;
+  font-size: 35px;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color:rgb(11, 11, 12)
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: rgb(50, 29, 231);
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 25px;
+  color: #0f0f11;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid rgb(62, 134, 241);
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #3ad176;
+  cursor: pointer;
+  box-shadow: 0 7px #04662b;
+  color:rgb(231, 246, 248)
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #efeefc;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Write your code below */
+span.menu-icon {
+  color: rgb(165, 49, 49);
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  
+  
+}
+.about{
+  color:rgb(241, 226, 226);
+}
+.about p{
+  font-size:15px;
+
+}
+footer img {
+width: 125px;
+}
+
+footer p {
+color: #f5eff5;
+font-size: 12px;
+}
+
+footer {
+padding-top: 30px;
+padding-bottom: 20px;
+background-color: #232F3E;
+}
